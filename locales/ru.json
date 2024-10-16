@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "forum": "О форуме",
+    "tariff": "Тарифы",
+    "organization": "Организаторы",
+    "contact": "Контакты"
+  },
+  "buttons": {
+    "become_partner": "Стать партнером",
+    "buy_ticket": "Купить билет",
+    "buy_ticket_action": "Купить билет"
+  },
+  "section": {
+    "main": {
+      "title": "НОВЫЕ СМЫСЛЫ В БИЗНЕСЕ",
+      "subtitle": "Присоединяйтесь к Евразийскому Құрылтай социальных предпринимателей",
+      "date": "14 - 15 ноября",
+      "location_city": "Астана",
+      "location_address": "Дворец независимости, Тауелсиздик 52"
+    }
+  },
+
+  "forum_title": "О Форуме",
+  "forum_subtitle": "Вдохновляйтесь, обучайтесь и создавайте ценные связи на крупнейшем событии в области социального предпринимательства, объединяющем 1200 участников из 20 стран!",
+
+  "counters_countries": "СТРАН",
+  "counters_participants": "УЧАСТНИКОВ",
+  "counters_speakers": "СПИКЕРОВ",
+
+  "countdown_title": "До начала мероприятия осталось:",
+  "countdown_days": "Дней",
+  "countdown_hours": "Часов",
+  "countdown_minutes": "Минут",
+  "countdown_seconds": "Секунд",
+
+  "what_you_get_title": "ЧТО ВЫ ПОЛУЧИТЕ",
+
+  "what_you_get_plenary_sessions_title": "Пленарные заседания",
+  "what_you_get_plenary_sessions_subtitle": "Выступления ведущих экспертов в области КСО, ESG, представителей бизнеса, государства и международных организаций и фондов.",
+
+  "what_you_get_sectional_sessions_title": "Секционные заседания",
+  "what_you_get_sectional_sessions_subtitle": "Тематические сессии по актуальным вопросам, таким как наука и исследования в социальном предпринимательстве, занятость социальных групп, инновации в КСО, стандарты ESG.",
+
+  "what_you_get_networking_title": "Networking",
+  "what_you_get_networking_subtitle": "Возможности для налаживания деловых связей и партнерства между заинтересованными лицами",
+
+  "what_you_get_exhibition_title": "Выставка и ярмарка",
+  "what_you_get_exhibition_subtitle": "Демонстрация успешных КСО проектов и продукции социальных предпринимателей.",
+
+  "what_you_get_awards_title": "Награждение",
+  "what_you_get_awards_subtitle": "Подведение итогов и признание достижений в области КСО и социального предпринимательства.",
+
+  "action_button": "Принять участие",
+
+  "tariff_title": "Тарифы",
+
+  "tariff_standard_title": "Стандарт",
+  "tariff_standard_feature1": "✔ Участие на всех сессиях",
+  "tariff_standard_feature2": "✔ Стандартная рассадка",
+  "tariff_standard_feature3": "(Без доступа в зону кофе брейка)",
+  "tariff_standard_buy": "КУПИТЬ БИЛЕТ",
+
+  "tariff_silver_title": "SiLVER",
+  "tariff_silver_feature1": "✔ Участие на всех сессиях",
+  "tariff_silver_feature2": "✔ Приоритетная рассадка",
+  "tariff_silver_feature3": "✔ Имиджевой набор участника",
+  "tariff_silver_feature4": "✔ Именной бейдж в серебрянном стиле",
+  "tariff_silver_feature5": "✔ Сертификат участника",
+  "tariff_silver_feature6": "✔ Кофе-брейк",
+  "tariff_silver_feature7": "✔ Общая стойка регистрации",
+  "tariff_silver_price_after": "Цена: 70 000₸ (После 5.11)",
+  "tariff_silver_price_during": "Цена: 100 000₸ (С 10.11-по 14.11)",
+  "tariff_silver_discount": "Для резидентов АСИ – 30 000₸",
+  "tariff_silver_buy": "КУПИТЬ БИЛЕТ",
+
+  "tariff_gold_title": "GOLD",
+  "tariff_gold_feature1": "✔ Участие на всех сессиях",
+  "tariff_gold_feature2": "✔ Рассадка на 2-3рядах для максимального комфорта",
+  "tariff_gold_feature3": "✔ Имиджевой набор участника согласно тарифу",
+  "tariff_gold_feature4": "✔ Именной бейдж в золотом стиле",
+  "tariff_gold_feature5": "✔ Сертификат участника",
+  "tariff_gold_feature6": "✔ Кофе-брейк",
+  "tariff_gold_feature7": "✔ Гала ужин с праздничной программой",
+  "tariff_gold_feature8": "✔ Бизнес стойка регистрации",
+  "tariff_gold_price_after": "Цена: 130 000₸ (После 5.11)",
+  "tariff_gold_price_during": "Цена: 170 000₸ (С 10.11-по 14.11)",
+  "tariff_gold_discount": "Для резидентов АСИ – 80 000₸",
+  "tariff_gold_buy": "КУПИТЬ БИЛЕТ",
+
+  "tariff_vip_title": "VIP",
+  "tariff_vip_feature1": "✔ Участие на всех сессиях",
+  "tariff_vip_feature2": "✔ VIP Имиджевой набор участника",
+  "tariff_vip_feature3": "✔ Именной бейдж в золотом стиле",
+  "tariff_vip_feature4": "✔ Сертификат участника",
+  "tariff_vip_feature5": "✔ Кофе-брейк",
+  "tariff_vip_feature6": "✔ Синхронный перевод выступлений на три языка",
+  "tariff_vip_feature7": "✔ Гала ужин с праздничной программой",
+  "tariff_vip_feature8": "✔ VIP регистрация",
+  "tariff_vip_feature9": "✔ VIP рассадка",
+  "tariff_vip_feature10": "✔ Участие в открытии Евразийского HUB",
+  "tariff_vip_feature11": "✔ VIP обед с иностранными гостями и руководителями КСО",
+  "tariff_vip_feature12": "✔ Приоритетные места и отдельный трансфер на Гала Ужин",
+  "tariff_vip_buy": "КУПИТЬ БИЛЕТ",
+
+  "tariff_adver_title": "НЕ УПУСТИТЕ НОВЫЕ ВОЗМОЖНОСТИ ДЛЯ ВАС И ВАШЕГО БИЗНЕСА",
+  "tariff_adver_buy": "Купить билет",
+
+
+  "organization_title": "ОРГАНИЗАТОРЫ ФОРУМА",
+  
+  "organization_item1_title": "Ассоциация социальных инноваторов (АСИ)",
+  "organization_item2_title": "Акимат города Астана",
+  "organization_item3_title": "Министерство национальной экономики",
+
+  "feedback_title": "ОСТАВИТЬ ЗАЯВКУ",
+  "feedback_subtitle": "Оставьте ваши контактные данные",
+
+  "feedback_placeholder_name": "ФИО",
+  "feedback_placeholder_email": "Email",
+  "feedback_placeholder_phone": "+77752823378",
+  "feedback_button_send": "Отправить",
+
+  "footer_city": "Казахстан, г. Астана",
+  "footer_contacts_title": "Контакты:",
+  "footer_phone": "Тел: +7 778 607 1929",
+  "footer_email": "Email: asiqazaqstan@gmail.com",
+
+  "footer_link_about_forum": "О форуме",
+  "footer_link_tariffs": "Тарифы",
+  "footer_link_organizers": "Организаторы",
+  "footer_link_contacts": "Контакты",
+
+  "footer_text": "Присоединяйтесь к Евразийскому Құрылтай социальных предпринимателей 14–15 ноября в Астане! Вдохновляйтесь, обучайтесь и устанавливайте ценные связи на крупнейшем событии в сфере социального предпринимательства. Откройте новые возможности для вашего бизнеса и станьте частью сообщества, создающего новые смыслы в бизнесе. Не упустите шанс — купите билет уже сегодня!"
+
+}

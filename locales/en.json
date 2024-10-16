@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "forum": "About the Forum",
+    "tariff": "Tariffs",
+    "organization": "Organizers",
+    "contact": "Contacts"
+  },
+  "buttons": {
+    "become_partner": "Become a Partner",
+    "buy_ticket": "Buy Ticket",
+    "buy_ticket_action": "Buy Ticket"
+  },
+  "section": {
+    "main": {
+      "title": "NEW MEANINGS IN BUSINESS",
+      "subtitle": "Join the Eurasian Assembly of Social Entrepreneurs",
+      "date": "November 14 - 15",
+      "location_city": "Astana",
+      "location_address": "Palace of Independence, Tauelsizdik 52"
+    }
+  },
+
+  "forum_title": "About the Forum",
+  "forum_subtitle": "Inspire, learn, and create valuable connections at the largest event in the field of social entrepreneurship, bringing together 1,200 participants from 20 countries!",
+
+  "counters_countries": "COUNTRIES",
+  "counters_participants": "PARTICIPANTS",
+  "counters_speakers": "SPEAKERS",
+
+  "countdown_title": "Time remaining until the event starts:",
+  "countdown_days": "Days",
+  "countdown_hours": "Hours",
+  "countdown_minutes": "Minutes",
+  "countdown_seconds": "Seconds",
+
+  "what_you_get_title": "WHAT YOU WILL GET",
+
+  "what_you_get_plenary_sessions_title": "Plenary Sessions",
+  "what_you_get_plenary_sessions_subtitle": "Presentations by leading experts in CSR, ESG, representatives of business, government, international organizations, and funds.",
+
+  "what_you_get_sectional_sessions_title": "Sectional Sessions",
+  "what_you_get_sectional_sessions_subtitle": "Thematic sessions on current issues such as science and research in social entrepreneurship, employment of social groups, innovations in CSR, ESG standards.",
+
+  "what_you_get_networking_title": "Networking",
+  "what_you_get_networking_subtitle": "Opportunities to establish business connections and partnerships among interested parties.",
+
+  "what_you_get_exhibition_title": "Exhibition and Fair",
+  "what_you_get_exhibition_subtitle": "Demonstration of successful CSR projects and products of social entrepreneurs.",
+
+  "what_you_get_awards_title": "Awards",
+  "what_you_get_awards_subtitle": "Summing up and recognizing achievements in the field of CSR and social entrepreneurship.",
+
+  "action_button": "Participate",
+
+  "tariff_title": "Tariffs",
+
+  "tariff_standard_title": "Standard",
+  "tariff_standard_feature1": "✔ Participation in all sessions",
+  "tariff_standard_feature2": "✔ Standard seating",
+  "tariff_standard_feature3": "(No access to the coffee break area)",
+  "tariff_standard_buy": "BUY TICKET",
+
+  "tariff_silver_title": "SiLVER",
+  "tariff_silver_feature1": "✔ Participation in all sessions",
+  "tariff_silver_feature2": "✔ Priority seating",
+  "tariff_silver_feature3": "✔ Participant image kit",
+  "tariff_silver_feature4": "✔ Personalized badge in silver style",
+  "tariff_silver_feature5": "✔ Participant certificate",
+  "tariff_silver_feature6": "✔ Coffee break",
+  "tariff_silver_feature7": "✔ General registration desk",
+  "tariff_silver_price_after": "Price: 70,000₸ (After 5.11)",
+  "tariff_silver_price_during": "Price: 100,000₸ (From 10.11 to 14.11)",
+  "tariff_silver_discount": "For ASI residents – 30,000₸",
+  "tariff_silver_buy": "BUY TICKET",
+
+  "tariff_gold_title": "GOLD",
+  "tariff_gold_feature1": "✔ Participation in all sessions",
+  "tariff_gold_feature2": "✔ Seating in 2-3 rows for maximum comfort",
+  "tariff_gold_feature3": "✔ Participant image kit according to tariff",
+  "tariff_gold_feature4": "✔ Personalized badge in gold style",
+  "tariff_gold_feature5": "✔ Participant certificate",
+  "tariff_gold_feature6": "✔ Coffee break",
+  "tariff_gold_feature7": "✔ Gala dinner with festive program",
+  "tariff_gold_feature8": "✔ Business registration desk",
+  "tariff_gold_price_after": "Price: 130,000₸ (After 5.11)",
+  "tariff_gold_price_during": "Price: 170,000₸ (From 10.11 to 14.11)",
+  "tariff_gold_discount": "For ASI residents – 80,000₸",
+  "tariff_gold_buy": "BUY TICKET",
+
+  "tariff_vip_title": "VIP",
+  "tariff_vip_feature1": "✔ Participation in all sessions",
+  "tariff_vip_feature2": "✔ VIP Participant image kit",
+  "tariff_vip_feature3": "✔ Personalized badge in gold style",
+  "tariff_vip_feature4": "✔ Participant certificate",
+  "tariff_vip_feature5": "✔ Coffee break",
+  "tariff_vip_feature6": "✔ Simultaneous translation of speeches into three languages",
+  "tariff_vip_feature7": "✔ Gala dinner with festive program",
+  "tariff_vip_feature8": "✔ VIP registration",
+  "tariff_vip_feature9": "✔ VIP seating",
+  "tariff_vip_feature10": "✔ Participation in the opening of the Eurasian HUB",
+  "tariff_vip_feature11": "✔ VIP lunch with foreign guests and CSR leaders",
+  "tariff_vip_feature12": "✔ Priority seats and separate transfer to the Gala Dinner",
+  "tariff_vip_buy": "BUY TICKET",
+
+  "tariff_adver_title": "DON'T MISS NEW OPPORTUNITIES FOR YOU AND YOUR BUSINESS",
+  "tariff_adver_buy": "Buy Ticket",
+
+  "organization_title": "FORUM ORGANIZERS",
+  
+  "organization_item1_title": "Association of Social Innovators (ASI)",
+  "organization_item2_title": "Astana Akimat",
+  "organization_item3_title": "Ministry of National Economy",
+
+  "feedback_title": "LEAVE A REQUEST",
+  "feedback_subtitle": "Leave your contact details",
+
+  "feedback_placeholder_name": "Full Name",
+  "feedback_placeholder_email": "Email",
+  "feedback_placeholder_phone": "+77752823378",
+  "feedback_button_send": "Send",
+
+  "footer_city": "Kazakhstan, Astana",
+  "footer_contacts_title": "Contacts:",
+  "footer_phone": "Tel: +7 778 607 1929",
+  "footer_email": "Email: asiqazaqstan@gmail.com",
+
+  "footer_link_about_forum": "About the Forum",
+  "footer_link_tariffs": "Tariffs",
+  "footer_link_organizers": "Organizers",
+  "footer_link_contacts": "Contacts",
+
+  "footer_text": "Join the Eurasian Assembly of Social Entrepreneurs on November 14–15 in Astana! Inspire, learn, and establish valuable connections at the largest event in the field of social entrepreneurship. Open up new opportunities for your business and become part of a community creating new meanings in business. Don't miss your chance — buy a ticket today!"
+
+
+}

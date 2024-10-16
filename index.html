@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+  <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Заголовок страницы в браузере -->
+    <title>Евразийский Құрылтай</title>
+
+    <!-- Подключаем CSS -->
+    <link rel="stylesheet" href="scss/animate.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://static.tildacdn.pro/tild3339-6562-4162-b332-333164633135/logo_back_blue.png"
+      media="(prefers-color-scheme: light)"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="scss/style.css" />
+    <link href="fonts/gilroy/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.materialdesignicons.com/7.2.96/css/materialdesignicons.min.css"
+    />
+    <!-- Кодировка страницы -->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  </head>
+  <!-- Отображаемое тело страницы -->
+  <body>
+    <div class="section__main">
+      <div class="section__main__content _container">
+        <header>
+          <div class="logo"><img src="./img/logo.png" alt="Logo" /></div>
+          <nav>
+            <div class="menu">
+              <div class="menu__close">
+                <span class="mdi mdi-close"></span>
+              </div>
+              <ul>
+                <li><a href="#forum" data-i18n="nav.forum">О форуме</a></li>
+                <li><a href="#tariff" data-i18n="nav.tariff">Тарифы</a></li>
+                <li>
+                  <a href="#organization" data-i18n="nav.organization"
+                    >Организаторы</a
+                  >
+                </li>
+                <li><a href="#contact" data-i18n="nav.contact">Контакты</a></li>
+              </ul>
+
+              <div class="btn_group">
+                <a
+                  href="./img/doc/eq.pdf"
+                  class="header__btn__primary"
+                  target="_blank"
+                  data-i18n="buttons.become_partner"
+                  >Стать партнером</a
+                >
+
+                <a
+                  href=""
+                  class="header__btn__default"
+                  data-i18n="buttons.buy_ticket"
+                  >Купить билет</a
+                >
+              </div>
+
+              <div>
+                <select id="language-select">
+                  <option value="ru">RU</option>
+                  <!-- По умолчанию выбран русский -->
+                  <option value="en">EN</option>
+                  <option value="kk">KK</option>
+                </select>
+              </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </header>
+
+        <div class="section__main__row">
+          <div class="section__main__item wow fadeInDown">
+            <div
+              class="section__main__item__title"
+              data-i18n="section.main.title"
+            >
+              НОВЫЕ СМЫСЛЫ В БИЗНЕСЕ
+            </div>
+            <div
+              class="section__main__item__subtitle"
+              data-i18n="section.main.subtitle"
+            >
+              Присоединяйтесь к Евразийскому Құрылтай социальных
+              предпринимателей
+            </div>
+
+            <div class="section__main__item__data">
+              <div
+                class="section__main__item__data__block"
+                data-i18n="section.main.date"
+              >
+                14 - 15 ноября
+              </div>
+              <div
+                class="section__main__item__data__block"
+                data-i18n="section.main.location_city"
+              >
+                Астана
+              </div>
+            </div>
+
+            <a
+              href="https://maps.app.goo.gl/2t3GZUgKNqAwUTFEA?g_st=it"
+              class="section__main__item__location"
+            >
+              <img src="./img/icons/location.png" alt="Location Icon" />
+              <span data-i18n="section.main.location_address"
+                >Дворец независимости, Тауелсиздик 52</span
+              >
+            </a>
+            <br />
+
+            <a
+              href=""
+              class="section__main__item__action"
+              data-i18n="buttons.buy_ticket_action"
+              >Купить билет</a
+            >
+          </div>
+
+          <div class="section__main__item">
+            <div class="collage">
+              <img
+                src="./img/flag/1.svg.png"
+                alt="Флаг 1"
+                class="flag wow fadeInDown"
+                data-wow-duration="0.1s"
+              />
+              <img
+                src="./img/flag/2.svg.png"
+                alt="Флаг 2"
+                class="flag wow fadeInDown"
+                data-wow-duration="0.3s"
+              />
+              <img
+                src="./img/flag/3.svg.png"
+                alt="Флаг 3"
+                class="flag wow fadeInDown"
+                data-wow-duration="0.6s"
+              />
+              <img
+                src="./img/flag/4.svg.png"
+                alt="Флаг 4"
+                class="flag wow fadeInDown"
+                data-wow-duration="1s"
+              />
+              <img
+                src="./img/flag/5.svg.png"
+                alt="Флаг 5"
+                class="flag wow fadeInDown"
+                data-wow-duration="1.3s"
+              />
+              <img
+                src="./img/flag/6.svg.png"
+                alt="Флаг 6"
+                class="flag wow fadeInDown"
+                data-wow-duration="1.6s"
+              />
+              <img
+                src="./img/flag/7.svg.png"
+                alt="Флаг 7"
+                class="flag wow fadeInDown"
+                data-wow-duration="2s"
+              />
+              <img
+                src="./img/flag/8.svg.png"
+                alt="Флаг 8"
+                class="flag wow fadeInDown"
+                data-wow-duration="2.3s"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section__forum" id="forum">
+      <div class="section__forum__content _container">
+        <div class="section__title" data-i18n="forum_title">О Форуме</div>
+
+        <div class="section__forum__subtitle">
+          <img src="./img/logo.png" alt="" />
+          <span data-i18n="forum_subtitle">
+            Вдохновляйтесь, обучайтесь и создавайте ценные связи на крупнейшем
+            событии в области социального предпринимательства, объединяющем 1200
+            участников из 20 стран!
+          </span>
+        </div>
+
+        <!-- Counter Block -->
+        <div class="counters" id="counter-block">
+          <div class="counter-item">
+            <div><span class="counter" data-target="20">0</span>+</div>
+            <div class="label" data-i18n="counters_countries">СТРАН</div>
+          </div>
+          <div class="counter-item">
+            <div><span class="counter" data-target="1200">0</span>+</div>
+            <div class="label" data-i18n="counters_participants">
+              УЧАСТНИКОВ
+            </div>
+          </div>
+          <div class="counter-item">
+            <div><span class="counter" data-target="30">0</span>+</div>
+            <div class="label" data-i18n="counters_speakers">СПИКЕРОВ</div>
+          </div>
+        </div>
+
+        <div class="section__forum__date wow fadeInDown">
+          <h2 class="section__forum__date__title" data-i18n="countdown_title">
+            До начала мероприятия осталось:
+          </h2>
+          <div class="countdown" id="countdown">
+            <div class="time-unit">
+              <div class="digits">
+                <div class="digit" id="days_digit1">0</div>
+                <div class="digit" id="days_digit2">0</div>
+              </div>
+              <div class="label" data-i18n="countdown_days">Дней</div>
+            </div>
+            <div class="time-unit">
+              <div class="digits">
+                <div class="digit" id="hours_digit1">0</div>
+                <div class="digit" id="hours_digit2">0</div>
+              </div>
+              <div class="label" data-i18n="countdown_hours">Часов</div>
+            </div>
+            <div class="time-unit">
+              <div class="digits">
+                <div class="digit" id="minutes_digit1">0</div>
+                <div class="digit" id="minutes_digit2">0</div>
+              </div>
+              <div class="label" data-i18n="countdown_minutes">Минут</div>
+            </div>
+            <div class="time-unit">
+              <div class="digits">
+                <div class="digit" id="seconds_digit1">0</div>
+                <div class="digit" id="seconds_digit2">0</div>
+              </div>
+              <div class="label" data-i18n="countdown_seconds">Секунд</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section__title" data-i18n="what_you_get_title">
+          ЧТО ВЫ ПОЛУЧИТЕ
+        </div>
+
+        <div class="section__forum__row">
+          <div class="section__forum__item wow fadeInLeft">
+            <div class="section__forum__item__part">
+              <div
+                class="section__forum__item__title"
+                data-i18n="what_you_get_plenary_sessions_title"
+              >
+                Пленарные заседания
+              </div>
+              <div
+                class="section__forum__item__subtitle"
+                data-i18n="what_you_get_plenary_sessions_subtitle"
+              >
+                Выступления ведущих экспертов в области КСО, ESG, представителей
+                бизнеса, государства и международных организаций и фондов.
+              </div>
+            </div>
+            <div class="section__forum__item__part">
+              <div
+                class="section__forum__item__title"
+                data-i18n="what_you_get_sectional_sessions_title"
+              >
+                Секционные заседания
+              </div>
+              <div
+                class="section__forum__item__subtitle"
+                data-i18n="what_you_get_sectional_sessions_subtitle"
+              >
+                Тематические сессии по актуальным вопросам, таким как наука и
+                исследования в социальном предпринимательстве, занятость
+                социальных групп, инновации в КСО, стандарты ESG.
+              </div>
+            </div>
+          </div>
+          <div class="section__forum__item wow fadeInDown">
+            <div
+              class="section__forum__item__part"
+              style="align-items: center; text-align: center"
+            >
+              <div
+                class="section__forum__item__title"
+                data-i18n="what_you_get_networking_title"
+              >
+                Networking
+              </div>
+              <div
+                class="section__forum__item__subtitle"
+                data-i18n="what_you_get_networking_subtitle"
+              >
+                Возможности для налаживания деловых связей и партнерства между
+                заинтересованными лицами
+              </div>
+
+              <div class="section__forum__item__part__img">
+                <img src="./img/n.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="section__forum__item wow fadeInRight">
+            <div class="section__forum__item__part">
+              <div
+                class="section__forum__item__title"
+                data-i18n="what_you_get_exhibition_title"
+              >
+                Выставка и ярмарка
+              </div>
+              <div
+                class="section__forum__item__subtitle"
+                data-i18n="what_you_get_exhibition_subtitle"
+              >
+                Демонстрация успешных КСО проектов и продукции социальных
+                предпринимателей.
+              </div>
+            </div>
+            <div class="section__forum__item__part">
+              <div
+                class="section__forum__item__title"
+                data-i18n="what_you_get_awards_title"
+              >
+                Награждение
+              </div>
+              <div
+                class="section__forum__item__subtitle"
+                data-i18n="what_you_get_awards_subtitle"
+              >
+                Подведение итогов и признание достижений в области КСО и
+                социального предпринимательства.
+              </div>
+
+              <a
+                href="./img/doc/Концепция конкурса СП.pdf"
+                target="_blank"
+                class="section__forum__item__subtitle"
+                >Конкурс для СП</a
+              >
+              <a
+                href="./img/doc/Концепция конкурса КСО.pdf"
+                target="_blank"
+                class="section__forum__item__subtitle"
+                >Конкурс для КСО</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="section__forum__action">
+          <a
+            href=""
+            class="section__forum__action__btn"
+            data-i18n="action_button"
+            >Принять участие</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="section__tariff" id="tariff">
+      <div class="section__tariff__container _container">
+        <div class="section__title" data-i18n="tariff_title">Тарифы</div>
+        <div class="section__tariff__row">
+          <div
+            class="section__tariff__item wow fadeInDown"
+            data-wow-duration="1s"
+          >
+            <div class="section__tariff__item__content">
+              <div
+                class="section__tariff__item__title"
+                data-i18n="tariff_standard_title"
+              >
+                Стандарт
+              </div>
+              <div class="section__tariff__item__price">0₸</div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_standard_feature1"
+              >
+                ✔ Участие на всех сессиях
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_standard_feature2"
+              >
+                ✔ Стандартная рассадка
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_standard_feature3"
+              >
+                (Без доступа в зону кофе брейка)
+              </div>
+            </div>
+
+            <div class="section__tariff__item__action">
+              <a
+                href=""
+                class="section__tariff__item__action__btn"
+                data-i18n="tariff_standard_buy"
+                >КУПИТЬ БИЛЕТ</a
+              >
+            </div>
+          </div>
+          <div
+            class="section__tariff__item wow fadeInDown"
+            data-wow-duration="1.2s"
+          >
+            <div class="section__tariff__item__content">
+              <div
+                class="section__tariff__item__title"
+                data-i18n="tariff_silver_title"
+              >
+                SiLVER
+              </div>
+              <div class="section__tariff__item__price">50 000₸</div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature1"
+              >
+                ✔ Участие на всех сессиях
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature2"
+              >
+                ✔ Приоритетная рассадка
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature3"
+              >
+                ✔ Имиджевой набор участника
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature4"
+              >
+                ✔ Именной бейдж в серебрянном стиле
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature5"
+              >
+                ✔ Сертификат участника
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature6"
+              >
+                ✔ Кофе-брейк
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_feature7"
+              >
+                ✔ Общая стойка регистрации
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_price_after"
+              >
+                Цена: 70 000₸ (После 5.11)
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_price_during"
+              >
+                Цена: 100 000₸ (С 10.11-по 14.11)
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_silver_discount"
+              >
+                Для резидентов АСИ – 30 000₸
+              </div>
+            </div>
+
+            <div class="section__tariff__item__action">
+              <a
+                href=""
+                class="section__tariff__item__action__btn"
+                data-i18n="tariff_silver_buy"
+                >КУПИТЬ БИЛЕТ</a
+              >
+            </div>
+          </div>
+          <div
+            class="section__tariff__item wow fadeInDown"
+            data-wow-duration="1.4s"
+          >
+            <div class="section__tariff__item__content">
+              <div
+                class="section__tariff__item__title"
+                data-i18n="tariff_gold_title"
+              >
+                GOLD
+              </div>
+              <div class="section__tariff__item__price">100 000₸</div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature1"
+              >
+                ✔ Участие на всех сессиях
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature2"
+              >
+                ✔ Рассадка на 2-3рядах для максимального комфорта
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature3"
+              >
+                ✔ Имиджевой набор участника согласно тарифу
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature4"
+              >
+                ✔ Именной бейдж в золотом стиле
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature5"
+              >
+                ✔ Сертификат участника
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature6"
+              >
+                ✔ Кофе-брейк
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature7"
+              >
+                ✔ Гала ужин с праздничной программой
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_feature8"
+              >
+                ✔ Бизнес стойка регистрации
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_price_after"
+              >
+                Цена: 130 000₸ (После 5.11)
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_price_during"
+              >
+                Цена: 170 000₸ (С 10.11-по 14.11)
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_gold_discount"
+              >
+                Для резидентов АСИ – 80 000₸
+              </div>
+            </div>
+
+            <div class="section__tariff__item__action">
+              <a
+                href=""
+                class="section__tariff__item__action__btn"
+                data-i18n="tariff_gold_buy"
+                >КУПИТЬ БИЛЕТ</a
+              >
+            </div>
+          </div>
+          <div
+            class="section__tariff__item wow fadeInDown"
+            data-wow-duration="1.6s"
+          >
+            <div class="section__tariff__item__content">
+              <div
+                class="section__tariff__item__title"
+                data-i18n="tariff_vip_title"
+              >
+                VIP
+              </div>
+              <div class="section__tariff__item__price">500 000₸</div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature1"
+              >
+                ✔ Участие на всех сессиях
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature2"
+              >
+                ✔ VIP Имиджевой набор участника
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature3"
+              >
+                ✔ Именной бейдж в золотом стиле
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature4"
+              >
+                ✔ Сертификат участника
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature5"
+              >
+                ✔ Кофе-брейк
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature6"
+              >
+                ✔ Синхронный перевод выступлений на три языка
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature7"
+              >
+                ✔ Гала ужин с праздничной программой
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature8"
+              >
+                ✔ VIP регистрация
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature9"
+              >
+                ✔ VIP рассадка
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature10"
+              >
+                ✔ Участие в открытии Евразийского HUB
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature11"
+              >
+                ✔ VIP обед с иностранными гостями и руководителями КСО
+              </div>
+              <div
+                class="section__tariff__item__list"
+                data-i18n="tariff_vip_feature12"
+              >
+                ✔ Приоритетные места и отдельный трансфер на Гала Ужин
+              </div>
+            </div>
+
+            <div class="section__tariff__item__action">
+              <a
+                href=""
+                class="section__tariff__item__action__btn"
+                data-i18n="tariff_vip_buy"
+                >КУПИТЬ БИЛЕТ</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="section__tariff__adver">
+          <div class="section__tariff__adver__item wow fadeInLeft">
+            <div
+              class="section__tariff__adver__item__title"
+              data-i18n="tariff_adver_title"
+            >
+              НЕ УПУСТИТЕ НОВЫЕ ВОЗМОЖНОСТИ ДЛЯ ВАС И ВАШЕГО БИЗНЕСА
+            </div>
+
+            <a
+              href=""
+              class="section__tariff__adver__item__action"
+              data-i18n="tariff_adver_buy"
+            >
+              Купить билет
+            </a>
+          </div>
+
+          <div class="section__tariff__adver__item wow fadeInRight">
+            <div class="section__tariff__adver__item__img">
+              <img src="./img/e.jpg" alt="Advertisement Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section__organization" id="organization">
+      <div class="section__organization__content _container">
+        <div class="section__title" data-i18n="organization_title">
+          ОРГАНИЗАТОРЫ ФОРУМА
+        </div>
+
+        <div class="section__organization__row">
+          <a
+            href="https://asikz.com/"
+            target="_blank"
+            class="section__organization__item wow fadeInDown"
+          >
+            <img
+              src="./img/logo.png"
+              alt="Ассоциация социальных инноваторов (АСИ)"
+              class="section__organization__item__img"
+            />
+            <div
+              class="section__organization__item__title"
+              data-i18n="organization_item1_title"
+            >
+              Ассоциация социальных инноваторов (АСИ)
+            </div>
+          </a>
+          <a
+            href="https://www.gov.kz/memleket/entities/astana?lang=ru"
+            target="_blank"
+            class="section__organization__item wow fadeInDown"
+          >
+            <img
+              src="./img/org/2.png"
+              alt="Акимат города Астана"
+              class="section__organization__item__img"
+            />
+            <div
+              class="section__organization__item__title"
+              data-i18n="organization_item2_title"
+            >
+              Акимат города Астана
+            </div>
+          </a>
+          <a
+            href="https://www.gov.kz/memleket/entities/economy?lang=ru"
+            target="_blank"
+            class="section__organization__item wow fadeInDown"
+          >
+            <img
+              src="./img/org/3.png"
+              alt="Министерство национальной экономики"
+              class="section__organization__item__img"
+            />
+            <div
+              class="section__organization__item__title"
+              data-i18n="organization_item3_title"
+            >
+              Министерство национальной экономики
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section__feedback">
+      <div class="section__feedback__content _continer">
+        <div class="section__title" data-i18n="feedback_title">
+          ОСТАВИТЬ ЗАЯВКУ
+        </div>
+        <div class="section__feedback__subtitle" data-i18n="feedback_subtitle">
+          Оставьте ваши контактные данные
+        </div>
+        <form
+          id="contactForm"
+          action="index.php"
+          method="POST"
+          class="section__feedback__form"
+        >
+          <input
+            class="section__feedback__form__input"
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Иванов Иван Иванович"
+          />
+          <input
+            class="section__feedback__form__input"
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+          <input
+            class="section__feedback__form__input"
+            type="tel"
+            id="phone"
+            name="phone"
+            required
+            placeholder="+77752823378"
+          />
+          <button
+            class="section__feedback__form__action"
+            data-i18n="feedback_button_send"
+            type="submit"
+          >
+            Отправить
+          </button>
+        </form>
+
+        <div class="section__feedback__frame wow fadeInDown">
+          <div id="map" style="width: 100%; height: 400px"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="section__footer" id="contact">
+      <div class="section__footer__content _container">
+        <div class="section__footer__row">
+          <div class="section__footer__item">
+            <div class="section__footer__city" data-i18n="footer_city">
+              Казахстан, г. Астана
+            </div>
+            <div
+              class="section__footer__title"
+              data-i18n="footer_contacts_title"
+            >
+              Контакты:
+            </div>
+            <a
+              href="tel:+77786071929"
+              class="section__footer__contact"
+              data-i18n="footer_phone"
+              >Тел: +7 778 607 1929</a
+            >
+            <a
+              href="mailto:asiqazaqstan@gmail.com"
+              class="section__footer__contact"
+              data-i18n="footer_email"
+              >Email: asiqazaqstan@gmail.com</a
+            >
+          </div>
+
+          <div class="section__footer__item">
+            <div class="section__footer__list">
+              <a
+                href="#forum"
+                class="section__footer__link"
+                data-i18n="footer_link_about_forum"
+                >О форуме</a
+              >
+              <a
+                href="#tariff"
+                class="section__footer__link"
+                data-i18n="footer_link_tariffs"
+                >Тарифы</a
+              >
+              <a
+                href="#organization"
+                class="section__footer__link"
+                data-i18n="footer_link_organizers"
+                >Организаторы</a
+              >
+              <a
+                href="#contact"
+                class="section__footer__link"
+                data-i18n="footer_link_contacts"
+                >Контакты</a
+              >
+            </div>
+
+            <div class="section__footer__social">
+              <a
+                href="https://www.instagram.com/asi_qazaqstan/"
+                class="section__footer__social__link"
+                aria-label="Instagram"
+              >
+                <span class="mdi mdi-instagram"></span>
+              </a>
+              <a
+                href="https://www.youtube.com/@Asiqazaqstan"
+                class="section__footer__social__link"
+                aria-label="YouTube"
+              >
+                <span class="mdi mdi-youtube"></span>
+              </a>
+              <a
+                href="https://www.facebook.com/groups/1461572624088034/"
+                class="section__footer__social__link"
+                aria-label="Facebook"
+              >
+                <span class="mdi mdi-facebook"></span>
+              </a>
+              <a
+                href="https://wa.me/77786071929"
+                class="section__footer__social__link"
+                aria-label="WhatsApp"
+              >
+                <span class="mdi mdi-whatsapp"></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="section__footer__item">
+            <img
+              class="section__footer__item__img"
+              src="./img/logo.png"
+              alt="Логотип организации"
+            />
+          </div>
+
+          <div class="section__footer__item">
+            <div class="section__footer__text" data-i18n="footer_text">
+              Присоединяйтесь к Евразийскому Құрылтай социальных
+              предпринимателей 14–15 ноября в Астане! Вдохновляйтесь, обучайтесь
+              и устанавливайте ценные связи на крупнейшем событии в сфере
+              социального предпринимательства. Откройте новые возможности для
+              вашего бизнеса и станьте частью сообщества, создающего новые
+              смыслы в бизнесе. Не упустите шанс — купите билет уже сегодня!
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Подключаем JavaScript API с вашим API-ключом -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1EO0cWyxu4zlkElInDCT2F32rjRA0wVA&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/i18n.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <script type="text/javascript">
+      function initMap() {
+        var centerCoords = { lat: 51.12081078578418, lng: 71.47221744232903 };
+
+        var mapOptions = {
+          center: centerCoords,
+          zoom: 15,
+          styles: (google.maps.MapTypeStyle = [
+            { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
+            {
+              elementType: "labels.text.stroke",
+              stylers: [{ color: "#242f3e" }],
+            },
+            {
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#746855" }],
+            },
+            {
+              featureType: "administrative.locality",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#d59563" }],
+            },
+            {
+              featureType: "poi",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#d59563" }],
+            },
+            {
+              featureType: "poi.park",
+              elementType: "geometry",
+              stylers: [{ color: "#263c3f" }],
+            },
+            {
+              featureType: "poi.park",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#6b9a76" }],
+            },
+            {
+              featureType: "road",
+              elementType: "geometry",
+              stylers: [{ color: "#38414e" }],
+            },
+            {
+              featureType: "road",
+              elementType: "geometry.stroke",
+              stylers: [{ color: "#212a37" }],
+            },
+            {
+              featureType: "road",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#9ca5b3" }],
+            },
+            {
+              featureType: "road.highway",
+              elementType: "geometry",
+              stylers: [{ color: "#746855" }],
+            },
+            {
+              featureType: "road.highway",
+              elementType: "geometry.stroke",
+              stylers: [{ color: "#1f2835" }],
+            },
+            {
+              featureType: "road.highway",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#f3d19c" }],
+            },
+            {
+              featureType: "transit",
+              elementType: "geometry",
+              stylers: [{ color: "#2f3948" }],
+            },
+            {
+              featureType: "transit.station",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#d59563" }],
+            },
+            {
+              featureType: "water",
+              elementType: "geometry",
+              stylers: [{ color: "#17263c" }],
+            },
+            {
+              featureType: "water",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#515c6d" }],
+            },
+            {
+              featureType: "water",
+              elementType: "labels.text.stroke",
+              stylers: [{ color: "#17263c" }],
+            },
+          ]),
+          disableDefaultUI: false,
+          mapTypeControl: false,
+        };
+
+        var map = new google.maps.Map(
+          document.getElementById("map"),
+          mapOptions
+        );
+
+        var marker = new google.maps.Marker({
+          position: centerCoords,
+          map: map,
+          title: "Астана",
+          icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 8,
+            fillColor: "#ffb202",
+            fillOpacity: 1,
+            strokeWeight: 1,
+            strokeColor: "#ffffff",
+          },
+        });
+
+        var infoWindow = new google.maps.InfoWindow({
+          content:
+            "<strong>Астана</strong><br>Дворец независимости, Тауелсиздик 52",
+        });
+
+        infoWindow.open(map, marker);
+
+        marker.addListener("click", function () {
+          infoWindow.open(map, marker);
+        });
+      }
+
+      window.onload = initMap;
+    </script>
+
+    <script src="js/script.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      $(document).ready(function () {
+        let observerOptions = {
+          root: null, // Область просмотра — это окно браузера
+          threshold: 0.1, // Запуск, когда элемент будет виден на 10%
+        };
+
+        let observer = new IntersectionObserver(function (entries, observer) {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              $(".counter").each(function () {
+                let $this = $(this);
+                let target = parseInt($this.attr("data-target"));
+                let current = 0;
+                let speed = 50; // Скорость обновления счётчика
+
+                function updateCounter() {
+                  current += Math.ceil(target / 100); // Увеличение
+                  $this.text(current);
+
+                  if (current < target) {
+                    setTimeout(updateCounter, speed);
+                  } else {
+                    $this.text(target); // Убедитесь, что цель достигнута
+                  }
+                }
+
+                updateCounter(); // Запуск анимации
+              });
+              observer.unobserve(entry.target); // Отключаем наблюдение после срабатывания
+            }
+          });
+        }, observerOptions);
+
+        // Запускаем наблюдатель для блока с id "counter-block"
+        observer.observe(document.getElementById("counter-block"));
+      });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
