@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $attachments = []; // Можно добавить файлы для отправки
 
         // Email получателя всегда задан статически
-        $recipient_email = 'Altynai952@gmail.com';
+        $recipient_email = 'asiqazaqstan@gmail.com';
 
         // Отправляем письмо на заданный email
         $success = send_mail($settings['mail_settings_prod'], [$recipient_email], 'Данные с формы', $body, $attachments);

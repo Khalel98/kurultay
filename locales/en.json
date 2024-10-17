@@ -106,7 +106,7 @@
   "tariff_adver_buy": "Buy Ticket",
 
   "organization_title": "FORUM ORGANIZERS",
-  
+
   "organization_item1_title": "Association of Social Innovators (ASI)",
   "organization_item2_title": "Astana Akimat",
   "organization_item3_title": "Ministry of National Economy",
@@ -129,7 +129,12 @@
   "footer_link_organizers": "Organizers",
   "footer_link_contacts": "Contacts",
 
-  "footer_text": "Join the Eurasian Assembly of Social Entrepreneurs on November 14–15 in Astana! Inspire, learn, and establish valuable connections at the largest event in the field of social entrepreneurship. Open up new opportunities for your business and become part of a community creating new meanings in business. Don't miss your chance — buy a ticket today!"
+  "footer_text_1": "Eurasian Qurultai is a center of ideas and opportunities for the development of social business and a sustainable future.",
+  "footer_text_2": "The Eurasian Qurultai of Social Entrepreneurs is the largest international platform for exchanging experiences, discussing innovations, and creating partnerships in social business and sustainable development.",
+  "footer_text_3": "The Eurasian Qurultai of Social Entrepreneurs is a unique opportunity for social business leaders from 20 countries to unite, get inspired by new ideas, find solutions to global challenges, and expand the boundaries of social entrepreneurship.",
 
-
+  "forum_footer_exhibition_title": "Exhibition",
+  "forum_footer_exhibition_subtitle": "Social businesses, cases demonstrating the contribution of business to development and successful project launches.",
+  "forum_footer_competition_sp": "Competition for SP",
+  "forum_footer_competition_csr": "Competition for CSR"
 }

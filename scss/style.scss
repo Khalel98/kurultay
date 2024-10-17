@@ -80,7 +80,7 @@ header {
   }
   .logo {
     img {
-      max-width: 100px;
+      max-width: 150px;
     }
   }
 
@@ -184,7 +184,7 @@ header {
   gap: 10px;
 }
 .header__btn__default {
-  color: $black;
+  color: $white;
   text-decoration: none;
   font-size: 12px;
   font-weight: 700;
@@ -199,7 +199,7 @@ header {
   align-items: center;
   text-decoration: none;
   &:hover {
-    color: $black;
+    color: $white;
   }
 }
 .header__btn__primary {
@@ -225,12 +225,12 @@ header {
 
 .section__main {
   background: url("../img/bg.png");
-
+  padding-bottom: 100px;
   &__row {
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     @media (max-width: $md2) {
       grid-template-columns: 1fr;
     }
@@ -537,12 +537,63 @@ header {
       font-size: 14px;
     }
   }
+
+  &__footer {
+    margin-top: 100px;
+    @media (max-width: $md3) {
+      text-align: center;
+    }
+    &__title {
+      font-size: 36px;
+      font-weight: 700;
+      color: $white;
+      @media (max-width: $md4) {
+        font-size: 24px;
+      }
+    }
+    &__subtitle {
+      font-size: 20px;
+      color: $white;
+      @media (max-width: $md4) {
+        font-size: 14px;
+      }
+    }
+    &__action {
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      margin-top: 20px;
+      @media (max-width: $md3) {
+        justify-content: center;
+      }
+      @media (max-width: $md4) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      &__btn {
+        border: 1px solid $orange;
+        border-radius: 10px;
+        padding: 8px 16px;
+        font-size: 16px;
+        text-align: center;
+        color: $orange;
+
+        &:hover {
+          background: $orange;
+          color: $white;
+        }
+      }
+    }
+  }
 }
 
 .section__tariff {
   background: black;
   padding-top: 50px;
   padding-bottom: 50px;
+  @media (max-width: $md2) {
+    padding-bottom: 150px;
+  }
   &__container {
   }
   &__title {
@@ -636,6 +687,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    align-items: center;
     @media (max-width: $md2) {
       grid-template-columns: 1fr;
       gap: 30px;
@@ -647,6 +699,7 @@ header {
     }
     &__item {
       &:last-child {
+        height: 400px;
         background: linear-gradient(
             to bottom,
             rgba(28, 78, 164, 0.5),
@@ -657,6 +710,10 @@ header {
           url("../img/e.jpg");
         background-size: cover;
         border-radius: 20px;
+
+        @media (max-width: $md2) {
+          margin-top: 50px;
+        }
       }
       @media (max-width: $md2) {
         text-align: center;
@@ -787,9 +844,9 @@ header {
       padding: 20px;
     }
     &__action {
-      color: #000000;
-      border: 3px solid #ffb202;
-      background-color: #ffb202;
+      color: $white;
+      border: 3px solid $orange;
+      background-color: $orange;
       border-radius: 30px;
       -moz-border-radius: 30px;
       -webkit-border-radius: 30px;
@@ -809,8 +866,8 @@ header {
 
 .section__footer {
   background: black;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   color: #979797;
 
   @media (max-width: $md2) {
@@ -885,54 +942,38 @@ header {
   }
 
   &__text {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
 .collage {
-  position: relative;
-  height: 400px;
-
-  @media (max-width: $md3) {
-    height: 300px; // Скорректируйте при необходимости
-    width: 430px;
-    margin: 0 auto;
-    margin-top: 50px;
-  }
-
-  @media (max-width: $md3) {
-    width: 350px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px; /* Опционально: расстояние между элементами */
+  @media (max-width: $md2) {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 .flag {
-  position: absolute;
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
+  width: 100%;
+  // object-fit: cover;
+  height: 85px;
+  @media (max-width: $md1) {
+    height: 60px;
+  }
+  @media (max-width: $md2) {
+    height: 90px;
+  }
+  @media (max-width: $md3) {
+    height: 80px;
+  }
+  @media (max-width: $md4) {
+    height: 50px;
+  }
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Удален z-index из transition */
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  z-index: 1; /* Перенесено здесь */
-
-  @media (max-width: 1400px) {
-    width: 120px;
-    height: 80px;
-  }
-
-  @media (max-width: $md2) {
-    width: 150px;
-    height: 100px;
-  }
-
-  @media (max-width: $md3) {
-    width: 100px;
-    height: 70px;
-  }
-  @media (max-width: $md4) {
-    width: 90px;
-    height: 60px;
-  }
 
   &:hover {
     z-index: 10 !important;
@@ -941,214 +982,5 @@ header {
     @media (max-width: $md4) {
       transform: scale(1.2);
     }
-  }
-}
-
-/* Flag 1 */
-.flag:nth-child(1) {
-  top: 50px;
-  left: 80px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 35px;
-    left: 150px;
-  }
-
-  @media (max-width: $md2) {
-    top: 50px;
-    left: 80px;
-  }
-
-  @media (max-width: $md3) {
-    top: 25px;
-    left: 20px; // 90px - 70px = 20px
-  }
-  @media (max-width: $md4) {
-    top: 25px;
-    left: 0px;
-  }
-}
-
-/* Flag 2 */
-.flag:nth-child(2) {
-  top: 70px;
-  left: 220px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 45px;
-    left: 220px;
-  }
-
-  @media (max-width: $md2) {
-    top: 70px;
-    left: 220px;
-  }
-
-  @media (max-width: $md3) {
-    top: 40px;
-    left: 110px; // 180px - 70px = 110px
-  }
-  @media (max-width: $md4) {
-    top: 40px;
-
-    left: 80px;
-  }
-}
-
-/* Flag 3 */
-.flag:nth-child(3) {
-  top: 90px;
-  left: 360px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 55px;
-    left: 290px;
-  }
-
-  @media (max-width: $md2) {
-    top: 90px;
-    left: 360px;
-  }
-
-  @media (max-width: $md3) {
-    top: 55px;
-    left: 200px; // 270px - 70px = 200px
-  }
-  @media (max-width: $md4) {
-    top: 55px;
-    left: 160px;
-  }
-}
-
-/* Flag 4 */
-.flag:nth-child(4) {
-  top: 110px;
-  left: 500px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 65px;
-    left: 360px;
-  }
-
-  @media (max-width: $md2) {
-    top: 110px;
-    left: 500px;
-  }
-
-  @media (max-width: $md3) {
-    top: 65px;
-    left: 280px; // 350px - 70px = 280px
-  }
-  @media (max-width: $md4) {
-    top: 65px;
-    left: 240px;
-  }
-}
-
-/* Flag 5 */
-.flag:nth-child(5) {
-  top: 200px;
-  left: 100px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 110px;
-    left: 160px;
-  }
-
-  @media (max-width: $md2) {
-    top: 200px;
-    left: 100px;
-  }
-
-  @media (max-width: $md3) {
-    top: 140px;
-    left: 60px; // 130px - 70px = 60px
-  }
-  @media (max-width: $md4) {
-    top: 140px;
-    left: 20px; // 130px - 70px = 60px
-  }
-}
-
-/* Flag 6 */
-.flag:nth-child(6) {
-  top: 220px;
-  left: 240px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 120px;
-    left: 230px;
-  }
-
-  @media (max-width: $md2) {
-    top: 220px;
-    left: 240px;
-  }
-
-  @media (max-width: $md3) {
-    top: 160px;
-    left: 140px; // 210px - 70px = 140px
-  }
-  @media (max-width: $md4) {
-    top: 160px;
-    left: 100px; // 210px - 70px = 140px
-  }
-}
-
-/* Flag 7 */
-.flag:nth-child(7) {
-  top: 240px;
-  left: 380px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 130px;
-    left: 300px;
-  }
-
-  @media (max-width: $md2) {
-    top: 240px;
-    left: 380px;
-  }
-
-  @media (max-width: $md3) {
-    top: 175px;
-    left: 220px; // 290px - 70px = 220px
-  }
-  @media (max-width: $md4) {
-    top: 175px;
-    left: 180px; // 290px - 70px = 220px
-  }
-}
-
-/* Flag 8 */
-.flag:nth-child(8) {
-  top: 260px;
-  left: 520px;
-  z-index: 1;
-
-  @media (max-width: 1400px) {
-    top: 140px;
-    left: 360px;
-  }
-
-  @media (max-width: $md2) {
-    top: 260px;
-    left: 520px;
-  }
-
-  @media (max-width: $md3) {
-    top: 190px;
-    left: 300px; // 370px - 70px = 300px
-  }
-  @media (max-width: $md4) {
-    top: 190px;
-    left: 260px; // 370px - 70px = 300px
   }
 }
