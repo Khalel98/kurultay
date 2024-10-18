@@ -791,6 +791,7 @@ header nav .hamburger span {
 @media (max-width: 991.98px) {
   .section__tariff__adver__item:last-child {
     margin-top: 50px;
+    background: none;
   }
 }
 @media (max-width: 991.98px) {

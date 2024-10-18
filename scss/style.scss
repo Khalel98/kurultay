@@ -710,9 +710,9 @@ header {
           url("../img/e.jpg");
         background-size: cover;
         border-radius: 20px;
-
         @media (max-width: $md2) {
           margin-top: 50px;
+          background: none;
         }
       }
       @media (max-width: $md2) {
