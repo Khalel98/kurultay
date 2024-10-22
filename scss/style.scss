@@ -57,7 +57,7 @@ $orange: #ffb202;
   text-transform: uppercase;
   font-weight: 600;
   @media (max-width: $md3) {
-    font-size: 28px;
+    font-size: 25px;
   }
 }
 .section__subtitle {
@@ -695,7 +695,7 @@ header {
 
     @media (max-width: $md4) {
       padding-top: 70px;
-      padding-bottom: 50px;
+      padding-bottom: 0px;
     }
     &__item {
       &:last-child {
@@ -713,6 +713,7 @@ header {
         @media (max-width: $md2) {
           margin-top: 50px;
           background: none;
+          height: auto;
         }
       }
       @media (max-width: $md2) {
@@ -789,7 +790,7 @@ header {
     height: 200px;
     @media (max-width: $md4) {
       height: auto;
-      width: 80%;
+      width: 50%;
     }
   }
   .section__organization__item__title {
