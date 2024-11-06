@@ -612,6 +612,26 @@ header nav .hamburger span {
   margin-top: 10px;
   font-size: 14px;
 }
+.section__forum__program {
+  margin-top: 50px;
+  text-align: center;
+}
+.section__forum__program__btn {
+  max-width: 450px;
+  margin-top: 40px;
+  border: 1px solid #ffb202;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffb202;
+  font-size: 24px;
+}
+.section__forum__program__btn:hover {
+  color: #ffffff;
+  background: #ffb202;
+  text-decoration: none;
+}
 .section__forum__footer {
   margin-top: 100px;
 }

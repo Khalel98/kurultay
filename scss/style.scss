@@ -538,6 +538,27 @@ header {
     }
   }
 
+  &__program {
+    margin-top: 50px;
+    text-align: center;
+    &__btn {
+      max-width: 450px;
+      margin-top: 40px;
+      border: 1px solid $orange;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: $orange;
+      font-size: 24px;
+      &:hover {
+        color: $white;
+        background: $orange;
+        text-decoration: none;
+      }
+    }
+  }
+
   &__footer {
     margin-top: 100px;
     @media (max-width: $md3) {
